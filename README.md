@@ -10,12 +10,12 @@ https://www.tutorialspoint.com/java/java_basic_syntax.htm
 2. Classes/Methods Modifiers
 
 Access Modifiers
-    * default
-    * public
-    * protected
-    * private
+* default
+* public
+* protected
+* private
     
 Non-access Modifiers
-    final
-    abstract
-    strictfp
+* final
+* abstract
+* strictfp
