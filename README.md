@@ -7,15 +7,15 @@ https://www.tutorialspoint.com/java/java_basic_syntax.htm
 * Instance Variables (Non-static Variables): depend on instace of object to be seen. 
 * Classes Variables (Static Variables): accessed by class
 
-2. Classes? Methods Modifiers
+2. Classes/Methods Modifiers
 
-* Access Modifiers
-    default
-    public
-    protected
-    private
+Access Modifiers
+    * default
+    * public
+    * protected
+    * private
     
-* Non-access Modifiers
+Non-access Modifiers
     final
     abstract
     strictfp
