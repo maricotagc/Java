@@ -39,3 +39,14 @@ Non-access Modifiers
 * It has the same name as the class.
 * One class can have N constructors.
 * Java automatically provides a default constructor.
+* Contructor can have different access modifiers:
+- Default: allows classes from the entire package to instantiate the class.
+- Public: allows classes also from other packages to instantiate the class.
+- Protected: allows subclasses and classes from same package to instantiate the class.
+- Private: doesn't allo any class to instantiate the class.
+
+4. Data Types
+
+* Primitive Type: bite, int, char, boolean, short, long, float and double.
+* Object Type: class objects and various types of array variables come under reference datatype.
+
