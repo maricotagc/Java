@@ -45,6 +45,8 @@ Non-access Modifiers
 - Protected: allows subclasses and classes from same package to instantiate the class.
 - Private: doesn't allo any class to instantiate the class.
 
+![](https://miro.medium.com/max/1500/1*GKGirEJ5-PaSz2bzGlRTjw.png)
+
 4. Data Types
 
 * Primitive Type: bite, int, char, boolean, short, long, float and double.
