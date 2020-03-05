@@ -31,5 +31,11 @@ Access Modifiers
     
 Non-access Modifiers
 * final (class): prevents the class from being subclassed.
-* final (method): the content of the method should not be changed by any outsider
+* final (method): the content of the method should not be changed by any outsider.
 * abstract: can be accessed using the class name followed by a dot and the name of the variable or method.
+
+3. Constructor
+
+* It has the same name as the class.
+* One class can have N constructors.
+* Java automatically provides a default constructor that initializes all variables to zero.
