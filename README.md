@@ -25,7 +25,7 @@ public static String classVariable = variable1;
 
 Access Modifiers
 * default: accessible by classes in the same package.
-* public: accessible by any other class.
+* public: accessible by any other class in any package.
 * protected: accessible in the same package and subclasses.
 * private: accessible within the declared class.
     
