@@ -7,17 +7,19 @@ https://www.tutorialspoint.com/java/java_basic_syntax.htm
 * Instance Variables (Non-static Variables): depend on instace of object to be seen. 
 * Classes Variables (Static Variables): accessed by class
 
-'''java
-public class HelloApp
+```java
+public class VariablesExample
 {
-    public static void main(String[] args)
+
+public String instanceVariable = variable0;
+public static String classVariable = variable1;
+
+    public void LocalVariable()
     {
-        String helloMessage;
-        helloMessage = "Hello, World!";
-        System.out.println(helloMessage);
+        String localVariable = variable2;
     }
 } 
-'''
+```
 
 2. Classes/Methods Modifiers
 
