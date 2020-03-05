@@ -38,4 +38,4 @@ Non-access Modifiers
 
 * It has the same name as the class.
 * One class can have N constructors.
-* Java automatically provides a default constructor that initializes all variables to zero.
+* Java automatically provides a default constructor.
