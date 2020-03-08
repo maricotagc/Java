@@ -128,3 +128,13 @@ for(initialization; Boolean_expression; update) {
 ```
 
 ![](/images/for_loop.jpg)
+
+
+* Do-While: guaranteed to execute at least one time.
+
+```java
+do {
+   // Statements
+}while(Boolean_expression);
+```
+![](/images/do-while.jpg)
