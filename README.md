@@ -100,3 +100,5 @@ Notes:
 Syntax: variable x = (expression) ? value if true : value if false
 
 Example: b = (a == 1) ? 20: 30;
+
+![](/images)
