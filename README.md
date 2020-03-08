@@ -91,7 +91,7 @@ Notes:
 
 --> Assignment
 
-![](https://2.bp.blogspot.com/-UJFpQiJDnyI/XJiCCeJ7ONI/AAAAAAAACJM/KdWRhsG-A8UX9rEtaSU4Fy3cJLKQvhAhACLcBGAs/s1600/assign%2Bopertor.jpg)
+![](/images/assignmentOperators.jpg)
 
 --> Other Operators
 
