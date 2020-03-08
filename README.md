@@ -65,3 +65,13 @@ Notes:
 * Primitive Type: bite, int, char, boolean, short, long, float and double.
 * Object Type: class objects and various types of array variables come under reference datatype.
 
+5. Operators
+
+* Addition: +
+* Subtraction: -
+* Multiplication: *
+* Division: /
+* MModulus: % (returns remainder)
+* Increment: ++
+* Decrement: --
+
