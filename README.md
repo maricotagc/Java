@@ -106,3 +106,13 @@ Example: b = (a == 1) ? 20: 30;
 Pre-Increment: First the value is incremented by one and then the value is assigned to the variable.
 
 Post-Increment: First the value is assigned to the variable and then incremented by one.
+
+6. Loops
+
+* While: 
+```java
+while(Boolean_expression) {
+   // Statements
+}
+```
+![]()
