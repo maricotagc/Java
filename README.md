@@ -43,7 +43,7 @@ Non-access Modifiers
 - Default: allows classes from the entire package to instantiate the class.
 - Public: allows classes also from other packages to instantiate the class.
 - Protected: allows subclasses and classes from same package to instantiate the class.
-- Private: doesn't allo any class to instantiate the class.
+- Private: doesn't allow any class to instantiate the class.
 
 ![](https://miro.medium.com/max/1500/1*GKGirEJ5-PaSz2bzGlRTjw.png)
 
