@@ -110,9 +110,11 @@ Post-Increment: First the value is assigned to the variable and then incremented
 6. Loops
 
 * While: 
+
 ```java
 while(Boolean_expression) {
    // Statements
 }
 ```
-![]()
+
+![](/images/while.jpg)
