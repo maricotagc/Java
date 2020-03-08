@@ -90,12 +90,5 @@ Notes:
 * NOT: !
 
 --> Assignment
-* = 
 
-Example: C = A + B --> will assign value of A + B into C
-
-* +=
-
-Example: C += A is equivalent to C = C + A
-
-
+![](https://www.supercoders.in/2019/03/assignment-operators.html)
