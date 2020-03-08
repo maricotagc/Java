@@ -91,4 +91,4 @@ Notes:
 
 --> Assignment
 
-![](https://www.supercoders.in/2019/03/assignment-operators.html)
+![](https://2.bp.blogspot.com/-UJFpQiJDnyI/XJiCCeJ7ONI/AAAAAAAACJM/KdWRhsG-A8UX9rEtaSU4Fy3cJLKQvhAhACLcBGAs/s1600/assign%2Bopertor.jpg)
