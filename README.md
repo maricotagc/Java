@@ -92,3 +92,11 @@ Notes:
 --> Assignment
 
 ![](https://2.bp.blogspot.com/-UJFpQiJDnyI/XJiCCeJ7ONI/AAAAAAAACJM/KdWRhsG-A8UX9rEtaSU4Fy3cJLKQvhAhACLcBGAs/s1600/assign%2Bopertor.jpg)
+
+--> Other Operators
+
+* Conditional Operator (Ternary)
+
+Syntax: variable x = (expression) ? value if true : value if false
+
+Example: b = (a == 1) ? 20: 30;
