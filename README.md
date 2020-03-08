@@ -24,10 +24,10 @@ public static String classVariable = variable1;
 2. Classes/Methods Modifiers
 
 Access Modifiers
-* default: accessible by classes in the same package.
-* public: accessible by any other class in any package.
-* protected: accessible in the same package and subclasses.
-* private: accessible within the declared class.
+* Default: accessible by classes in the same package. If none access level is specified, it will be the default.
+* Public: accessible by any other class in any package.
+* Protected: accessible in the same package and subclasses.
+* Private: accessible within the declared class.
     
 Non-access Modifiers
 * final (class): prevents the class from being subclassed.
