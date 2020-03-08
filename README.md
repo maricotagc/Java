@@ -19,6 +19,14 @@ public static String classVariable = variable1;
         String localVariable = variable2;
     }
 } 
+
+///Another class
+public class Example2
+{
+    public static void main( String[] args ) {
+       VariablesExample.classVariable; //how to access static variable from another class 
+    }
+}
 ```
 
 2. Classes/Methods Modifiers
