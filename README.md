@@ -109,7 +109,7 @@ Post-Increment: First the value is assigned to the variable and then incremented
 
 6. Loops
 
-* While: 
+* While: tests the condition before executing the loop body.
 
 ```java
 while(Boolean_expression) {
@@ -118,3 +118,13 @@ while(Boolean_expression) {
 ```
 
 ![](/images/while.jpg)
+
+* For: useful when you know how many times a task is to be repeated
+
+```java
+for(initialization; Boolean_expression; update) {
+   // Statements
+}
+```
+
+![](/images/for-loop.jpg)
