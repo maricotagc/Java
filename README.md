@@ -127,4 +127,4 @@ for(initialization; Boolean_expression; update) {
 }
 ```
 
-![](/images/for-loop.jpg)
+![](/images/for_loop.jpg)
