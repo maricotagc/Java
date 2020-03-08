@@ -67,6 +67,7 @@ Notes:
 
 5. Operators
 
+--> Arithmetic 
 * Addition: +
 * Subtraction: -
 * Multiplication: *
@@ -74,4 +75,21 @@ Notes:
 * MModulus: % (returns remainder)
 * Increment: ++
 * Decrement: --
+
+--> Relational 
+* Equal to: ==
+* Not equal to: !=
+* Greater than: >
+* Less than: <
+* Greater than or equal: >=
+* Less than or equal: <=
+
+--> Logical 
+* AND: &&
+* OR: ||
+* NOT: !
+
+--> Assignment
+* = Example: C = A + B --> will assign value of A + B into C
+
 
