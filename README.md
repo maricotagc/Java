@@ -56,7 +56,7 @@ Non-access Modifiers
 Notes:
 -------------
 * Classes will always have DEFAULT or PUBLIC access modifiers.
-* Interfaces will always have PUBLIC access modifier.
+* Interfaces will always have PUBLIC access modifier (also methods/artifacts).
 
 ![](https://miro.medium.com/max/1500/1*GKGirEJ5-PaSz2bzGlRTjw.png)
 
