@@ -90,6 +90,9 @@ Notes:
 * NOT: !
 
 --> Assignment
-* = Example: C = A + B --> will assign value of A + B into C
+* = 
+Example: C = A + B --> will assign value of A + B into C
+* +=
+Example: C += A is equivalent to C = C + A
 
 
