@@ -72,7 +72,7 @@ Notes:
 * Subtraction: -
 * Multiplication: *
 * Division: /
-* MModulus: % (returns remainder)
+* Modulus: % (returns remainder)
 * Increment: ++
 * Decrement: --
 
