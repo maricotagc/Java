@@ -3,7 +3,7 @@
 https://www.tutorialspoint.com/java/java_basic_syntax.htm
 
 1. Variables
-* Local Variables: seen only inside the method. They should be declared and and initiated before the first use.
+* Local Variables: seen only inside the method. They should be declared and initiated before the first use.
 * Instance Variables (Non-static Variables): depend on instace of object to be seen. It is recommended to make these variables private. Default values: for numbers the default value is 0, for Booleans it is false and for object references it is null.
 * Classes Variables (Static Variables): accessed by class. If a static attribute receives new value, this value will be reflected to all instances of the class.
 
