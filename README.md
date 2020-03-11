@@ -169,3 +169,28 @@ Prints:
 50
 /*
 ```
+* Break
+
+When the break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next statement following the loop.
+
+```java
+public class Test {
+
+   public static void main(String args[]) {
+      int [] numbers = {10, 20, 30, 40, 50};
+
+      for(int x : numbers ) {
+         if( x == 30 ) {
+            break;
+         }
+         System.out.print( x );
+         System.out.print("\n");
+      }
+   }
+}
+/*
+Prints:
+10
+20
+*/
+```
