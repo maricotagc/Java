@@ -2,10 +2,10 @@
 
 https://www.tutorialspoint.com/java/java_basic_syntax.htm
 
-1. Variables
-* Local Variables: seen only inside the method. They should be declared and initiated before the first use.
-* Instance Variables (Non-static Variables): depend on instace of object to be seen. It is recommended to make these variables private. Default values: for numbers the default value is 0, for Booleans it is false and for object references it is null.
-* Classes Variables (Static Variables): accessed by class. If a static attribute receives new value, this value will be reflected to all instances of the class.
+# Variables
+1. Local Variables: seen only inside the method. They should be declared and initiated before the first use.
+2. Instance Variables (Non-static Variables): depend on instace of object to be seen. It is recommended to make these variables private. Default values: for numbers the default value is 0, for Booleans it is false and for object references it is null.
+3. Classes Variables (Static Variables): accessed by class. If a static attribute receives new value, this value will be reflected to all instances of the class.
 
 ```java
 public class VariablesExample
@@ -29,45 +29,39 @@ public class Example2
 }
 ```
 
-2. Classes/Methods Modifiers
+# Classes/ Methods Modifiers
 
-Access Modifiers
-* Default: accessible by classes in the same package. If none access level is specified, it will be the default.
-* Public: accessible by any other class in any package.
-* Protected: accessible in the same package and subclasses.
-* Private: accessible within the declared class.
+## Access Modifiers
+1. Default: accessible by classes in the same package. If none access level is specified, it will be the default.
+2. Public: accessible by any other class in any package.
+3. Protected: accessible in the same package and subclasses.
+4. Private: accessible within the declared class.
     
-Non-access Modifiers
-* final (class): prevents the class from being subclassed.
-* final (method): the content of the method should not be changed by any outsider.
-* abstract: can be accessed using the class name followed by a dot and the name of the variable or method.
+## Non-access Modifiers
+1. final (class): prevents the class from being subclassed.
+2. final (method): the content of the method should not be changed by any outsider.
+3. abstract: can be accessed using the class name followed by a dot and the name of the variable or method.
 
-3. Constructor
+# Constructor
 
 * It has the same name as the class.
 * One class can have N constructors.
 * Java automatically provides a default constructor.
-* Contructor can have different access modifiers:
-- Default: allows classes from the entire package to instantiate the class.
-- Public: allows classes also from other packages to instantiate the class.
-- Protected: allows subclasses and classes from same package to instantiate the class.
-- Private: doesn't allow any class to instantiate the class.
 
-Notes:
--------------
+###### Notes
 * Classes will always have DEFAULT or PUBLIC access modifiers.
 * Interfaces will always have PUBLIC access modifier (also methods/artifacts).
 
 ![](https://miro.medium.com/max/1500/1*GKGirEJ5-PaSz2bzGlRTjw.png)
 
-4. Data Types
+# Data Types
 
-* Primitive Type: bite, int, char, boolean, short, long, float and double.
-* Object Type: class objects and various types of array variables come under reference datatype.
+1. Primitive Type: bite, int, char, boolean, short, long, float and double.
+2. Object Type: class objects and various types of array variables come under reference datatype.
 
-5. Operators
+# Operators
 
---> Arithmetic 
+## Arithmetic 
 * Addition: +
 * Subtraction: -
 * Multiplication: *
@@ -76,7 +70,7 @@ Notes:
 * Increment: ++
 * Decrement: --
 
---> Relational 
+## Relational 
 * Equal to: ==
 * Not equal to: !=
 * Greater than: >
@@ -84,16 +78,14 @@ Notes:
 * Greater than or equal: >=
 * Less than or equal: <=
 
---> Logical 
+## Logical 
 * AND: &&
 * OR: ||
 * NOT: !
 
---> Assignment
-
 ![](/images/assignmentOperators.jpg)
 
---> Other Operators
+## Other Operators
 
 * Conditional Operator (Ternary)
 
@@ -107,9 +99,9 @@ Pre-Increment: First the value is incremented by one and then the value is assig
 
 Post-Increment: First the value is assigned to the variable and then incremented by one.
 
-6. Loops
+# Loops
 
-* While: tests the condition before executing the loop body.
+## While: tests the condition before executing the loop body.
 
 ```java
 while(Boolean_expression) {
@@ -119,7 +111,7 @@ while(Boolean_expression) {
 
 ![](/images/while.jpg)
 
-* For: useful when you know how many times a task is to be repeated
+## For: useful when you know how many times a task is to be repeated
 
 ```java
 for(initialization; Boolean_expression; update) {
@@ -130,7 +122,7 @@ for(initialization; Boolean_expression; update) {
 ![](/images/for_loop.jpg)
 
 
-* Do-While: guaranteed to execute at least one time.
+## Do-While: guaranteed to execute at least one time.
 
 ```java
 do {
@@ -206,9 +198,8 @@ for(declaration : expression) {
 }
 ```
 
-Declaration is the type compatible with the elements of the array you are accessing.
-
-Expression can be an array variable or method call that returns an array.
+* Declaration is the type compatible with the elements of the array you are accessing.
+* Expression can be an array variable or method call that returns an array.
 ```java
 Live Demo
 public class Test {
