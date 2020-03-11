@@ -226,3 +226,97 @@ Output:
 
 James, Larry, Tom, Lacy
 */
+```
+# Decision Making
+## If
+If the Boolean expression evaluates to true then the block of code inside the if statement will be executed. 
+```java
+int x = 10;
+
+      if( x < 20 ) {
+         System.out.print("This is if statement");
+      }
+//prints out: This is if statement
+```
+## If Else
+If statement can be followed by an optional else statement, which executes when the Boolean expression is false.
+```java
+int x = 30;
+
+      if( x < 20 ) {
+         System.out.print("This is if statement");
+      }else {
+         System.out.print("This is else statement");
+      }
+   }
+prints out: This is else statement
+```
+## If...else if...else
+Very useful to test various conditions. Keep in mind:
+* An if can have zero or one else's and it must come after any else if's.
+* An if can have zero to many else if's and they must come before the else.
+* Once an else if succeeds, none of the remaining else if's or else's will be tested.
+```java
+int x = 30;
+
+      if( x == 10 ) {
+         System.out.print("Value of X is 10");
+      }else if( x == 20 ) {
+         System.out.print("Value of X is 20");
+      }else if( x == 30 ) {
+         System.out.print("Value of X is 30");
+      }else {
+         System.out.print("This is else statement");
+      }
+   }
+prints out: Value of X is 30
+```
+## Nested If
+You can use one if or else if statement inside another if or else if statement.
+```java
+int x = 30;
+int y = 10;
+
+      if( x == 30 ) {
+         if( y == 10 ) {
+            System.out.print("X = 30 and Y = 10");
+         }
+      }
+prints out: X = 30 and Y = 10
+```
+## Switch
+Allows a variable to be tested for equality against a list of values (cases).
+
+* The variable used can only be integers, convertable integers (byte, short, char), strings and enums.
+* You can have any number of case statements.
+* The value for a case must be the same data type as the variable and it must be a constant or a literal.
+* When the variable being switched on is equal to a case, the statements following that case will execute until a break statement is reached.
+* When a break statement is reached the flow jumps to the next line following the switch statement.
+* If no break appears, the flow will fall through to subsequent cases until a break is reached.
+* Optional default case must appear at the end of the switch. Used for when none of the cases is true. No break is needed in the default case.
+```java
+char grade = 'C';
+
+      switch(grade) {
+         case 'A' :
+            System.out.println("Excellent!"); 
+            break;
+         case 'B' :
+         case 'C' :
+            System.out.println("Well done");
+            break;
+         case 'D' :
+            System.out.println("You passed");
+         case 'F' :
+            System.out.println("Better try again");
+            break;
+         default :
+            System.out.println("Invalid grade");
+      }
+      System.out.println("Your grade is " + grade);
+   }
+
+prints out: 
+Well done
+Your grade is " + grade
+```
