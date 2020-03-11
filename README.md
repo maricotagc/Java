@@ -194,3 +194,44 @@ Prints:
 20
 */
 ```
+
+* Enhanced for loop 
+
+This is mainly used to traverse collection of elements including arrays.
+
+Syntax: 
+```java
+for(declaration : expression) {
+   // Statements
+}
+```
+
+Declaration is the type compatible with the elements of the array you are accessing.
+
+Expression can be an array variable or method call that returns an array.
+```java
+Live Demo
+public class Test {
+   public static void main(String args[]) {
+   
+      int [] numbers = {10, 20, 30, 40, 50};
+
+      for(int x : numbers ) {
+         System.out.print( x );
+         System.out.print(",");
+      }
+      System.out.print("\n");
+      String [] names = {"James", "Larry", "Tom", "Lacy"};
+
+      for( String name : names ) {
+         System.out.print( name );
+         System.out.print(",");
+      }
+   }
+}
+/*
+Output:
+10,20,30,40,50
+
+James, Larry, Tom, Lacy
+*/
