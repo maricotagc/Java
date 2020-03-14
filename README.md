@@ -331,7 +331,6 @@ Wrapper object being converted back to a primitive data type.
 ```java
 x =  x + 10;
 ```
-
 # Strings - Escapes
 * \t : Inserts a tab
 * \b : Inserts a backspace
@@ -341,3 +340,29 @@ x =  x + 10;
 * \' : Inserts a single quote
 * \" : Inserts a double quote
 * \\ : Inserts a backslash
+# Arrays
+## Declaration
+```java
+//Example 1
+dataType[] arrayRefVar = new dataType[arraySize];
+
+//Example 2
+dataType[] arrayRefVar = {value1, value2, value3};
+```
+## Iteration
+For loop or foreach loop is used because all of the elements in an array have the same type and the size of the array is known.
+```java
+double[] myList = {1.9, 2.9, 3.4, 3.5};
+
+      // Print all elements
+      for (int i = 0; i < myList.length; i++) {
+         System.out.println(myList[i] + " ");
+      }
+     
+      // Summing all elements
+      double total = 0;
+      for (int i = 0; i < myList.length; i++) {
+         total += myList[i];
+      }
+      System.out.println("Total is " + total);
+```
