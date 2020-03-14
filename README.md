@@ -331,3 +331,13 @@ Wrapper object being converted back to a primitive data type.
 ```java
 x =  x + 10;
 ```
+
+# Strings - Escapes
+* \t : Inserts a tab
+* \b : Inserts a backspace
+* \n : Inserts a new line
+* \r : Inserts a carriage return
+* \f : Inserts a form feed
+* \' : Inserts a single quote
+* \" : Inserts a double quote
+* \\ : Inserts a backslash
