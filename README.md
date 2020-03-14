@@ -354,15 +354,45 @@ For loop or foreach loop is used because all of the elements in an array have th
 ```java
 double[] myList = {1.9, 2.9, 3.4, 3.5};
 
-      // Print all elements
+      // Print all elements using for
       for (int i = 0; i < myList.length; i++) {
          System.out.println(myList[i] + " ");
       }
-     
-      // Summing all elements
-      double total = 0;
-      for (int i = 0; i < myList.length; i++) {
-         total += myList[i];
-      }
-      System.out.println("Total is " + total);
+      // Print all elements using enhanced for
+      for (double element: myList) {
+         System.out.println(element);
+```
+# Methods
+Syntax:
+```java
+modifier returnType nameOfMethod (Parameters List) {
+   // method body
+}
+```
+## Overloading
+When a class has two or more methods by the same name but different parameters, it is known as method overloading.
+
+## This keyword
+Used as a reference to the object of the current class. Used to:
+* Differentiate the instance variables from local variables if they have same names.
+```java
+class Student {
+   int age;   
+   Student(int age) {
+      this.age = age;	
+   }
+}
+```
+* Call one type of constructor (parametrized constructor or default) from other in a class. 
+```java
+class Student {
+   int age
+   Student() {
+      this(20);
+   }
+   
+   Student(int age) {
+      this.age = age;	
+   }
+}
 ```
