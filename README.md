@@ -492,3 +492,19 @@ If classA extends classB and if members of both classes have the names, to diffe
 If classA implements classB means that classB is an interface and classB is type of classA. A class can only extend one superclass but a class can implement multiple interfaces.
 
 ![](https://www.tutorialspoint.com/java/images/types_of_inheritance.jpg)
+
+# Polimorphism
+Ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+
+Example:
+```java
+public interface Vegetarian{}
+public class Animal{}
+public class Deer extends Animal implements Vegetarian{}
+```
+Deer class is considered to be polymorphic since this has multiple inheritance.
+
+* A Deer IS-A Animal
+* A Deer IS-A Vegetarian
+* A Deer IS-A Deer
+* A Deer IS-A Object
