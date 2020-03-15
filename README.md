@@ -1,6 +1,4 @@
-# Java
-
-https://www.tutorialspoint.com/java/java_basic_syntax.htm
+[Documentation](https://www.tutorialspoint.com/java/java_basic_syntax.htm/)
 
 # Variables
 1. Local Variables: seen only inside the method. They should be declared and initiated before the first use.
