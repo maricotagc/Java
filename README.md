@@ -396,3 +396,6 @@ class Student {
    }
 }
 ```
+# Exceptions
+1. Checked exceptions: also known as compile time exceptions. The code will not be execute if these excpetions are not taken care.
+2. Unchecked exceptions: also known as runtime exceptions. Programming bugs (logical and improper use of API). 
