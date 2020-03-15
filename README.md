@@ -432,3 +432,32 @@ catch (IOException|FileNotFoundException ex) {
    logger.log(ex);
    throw ex;
 ```
+# The Throws/ Throw Keywords
+If a method does not handle a checked exception, the method must declare it using the throws keyword.
+
+Example:
+```java
+public void deposit(double amount) throws RemoteException {
+      // Method implementation
+      throw new RemoteException();
+   }
+   // Remainder of class definition
+}
+```
+
+## Example of Throw + Catch
+```java
+public void nameBuilder(String name) throws Exception {
+        if (name == null) {
+            throw new Exception("Name cannot be null.");
+        }
+    }
+
+public void callNameBuilder() {
+        try {
+            nameBuilder("");
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+```
