@@ -47,6 +47,8 @@ public class Example2
 * It has the same name as the class.
 * One class can have N constructors.
 * Java automatically provides a default constructor.
+* Constructors cannot be overridden.
+* Contructors can have all types of access modifiers.
 
 ###### Notes
 * Classes will always have DEFAULT or PUBLIC access modifiers.
@@ -372,6 +374,21 @@ modifier returnType nameOfMethod (Parameters List) {
 ## Overloading
 When a class has two or more methods by the same name but different parameters, it is known as method overloading.
 
+## Overriding
+When a subclass modifies a method from it's superclass.
+
+##### Rules for overriding
+* The parameters cannot be changed.
+* The return type cannot be changed.
+* The access level cannot be more restrictive than superclass'.
+* Instance methods can be overridden only if they are inherited by the subclass.
+* A method declared final cannot be overridden.
+* A method declared static cannot be overridden but can be re-declared.
+* A subclass within the same package as the instance's superclass can override any superclass method that is not declared private or final.
+* A subclass in a different package can only override the non-final methods declared public or protected.
+* An overriding method can throw any uncheck exceptions, regardless of whether the overridden method throws exceptions or not. However, the overriding method should not throw checked exceptions that are new or broader than the ones declared by the overridden method. The overriding method can throw narrower or fewer exceptions than the overridden method.
+* Constructors cannot be overridden.
+
 ## This keyword
 Used as a reference to the object of the current class. Used to:
 * Differentiate the instance variables from local variables if they have same names.
@@ -472,6 +489,6 @@ The class which inherits the properties of other is known as subclass (derived c
 
 If classA extends classB and if members of both classes have the names, to differentiate these variables we use super keyword.
 
-If classA implements classB means that classB is an interface and classB is type of classA.
+If classA implements classB means that classB is an interface and classB is type of classA. A class can only extend one superclass but a class can implement multiple interfaces.
 
 ![](https://www.tutorialspoint.com/java/images/types_of_inheritance.jpg)
