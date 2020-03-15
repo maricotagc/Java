@@ -467,3 +467,11 @@ public void callNameBuilder() {
         }
     }
 ```
+# Inheritance
+The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
+
+If classA extends classB and if members of both classes have the names, to differentiate these variables we use super keyword.
+
+If classA implements classB means that classB is an interface and classB is type of classA.
+
+![](https://www.tutorialspoint.com/java/images/types_of_inheritance.jpg)
