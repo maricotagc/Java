@@ -40,6 +40,25 @@ public class Example2
 2. final (method): the content of the method should not be changed by any outsider.
 3. abstract: can be accessed using the class name followed by a dot and the name of the variable or method.
 
+## Abstract Class
+1. May or may not contain abstract methods.
+2. If a class has at least one abstract method, then the class must be declared abstract.
+3. It cannot be instantiated.
+4. To use an abstract class, you have to inherit it from another class, provide implementations to the abstract methods in it.
+5. If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.
+
+## Abstract Method
+Implementation by subclasses.
+* Abstract keyword before the method name in the method's signature.
+* It doesn't contain a method body.
+* Instead of curly braces, an abstract method will have a semoi colon (;) at the end.
+* The class containing it must be declared as abstract.
+* Any class inheriting the current class must either override the abstract method or declare itself as abstract.
+
+Example:
+```java
+ public abstract double computePay();
+ ```
 # Constructor
 
 * It has the same name as the class.
@@ -506,3 +525,39 @@ Deer class is considered to be polymorphic since this has multiple inheritance.
 * A Deer IS-A Vegetarian
 * A Deer IS-A Deer
 * A Deer IS-A Object
+
+# Interfaces
+0. Contains behaviors that a class implements.
+1. It is a collection of abstract methods. 
+2. It may contain constants, default methods, static methods, and nested types. 
+3. Method bodies exist only for default methods and static methods.
+4. It cannot be instantiated.
+5. It doesn't contain constructors.
+6. The only fields that can appear in an interface must be declared both static and final.
+7. It can be implemented by many classes
+8. An interface can extend another interface
+
+Example:
+```java
+interface Animal {
+   public void eat();
+   public void travel();
+}
+
+## Implementation
+```java
+public class MammalInt implements Animal {
+
+   public void eat() {
+      System.out.println("Mammal eats");
+   }
+
+   public void travel() {
+      System.out.println("Mammal travels");
+   } 
+
+   public int noOfLegs() {
+      return 0;
+   }
+}
+```
