@@ -397,5 +397,38 @@ class Student {
 }
 ```
 # Exceptions
-1. Checked exceptions: also known as compile time exceptions. The code will not be execute if these excpetions are not taken care.
+1. Checked exceptions: also known as compile time exceptions. The code will not be execute if these exceptions are not taken care.
 2. Unchecked exceptions: also known as runtime exceptions. Programming bugs (logical and improper use of API). 
+
+## Catching exceptions
+A try/catch block is placed around the protected code that might generate an exception.
+
+A try block can be followed by multiple catch blocks.
+
+Single Catch Example:
+```java
+public class ExcepTest {
+
+   public static void main(String args[]) {
+      try {
+         int a[] = new int[2];
+         System.out.println("Access element three :" + a[3]);
+      } catch (ArrayIndexOutOfBoundsException e) {
+         System.out.println("Exception thrown  :" + e);
+      }
+      System.out.println("Out of the block");
+   }
+}
+```
+Result:
+
+Exception thrown  :java.lang.ArrayIndexOutOfBoundsException: 3
+
+Out of the block
+
+Multiple Catches Example:
+```java
+catch (IOException|FileNotFoundException ex) {
+   logger.log(ex);
+   throw ex;
+```
