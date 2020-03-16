@@ -563,6 +563,40 @@ public class MammalInt implements Animal {
 ```
 # Collections
 
+## List: stores an ordered collection of elements.
+* Elements can be inserted/ accessed by their position in the list, using a zero-based index.
+* A list may contain duplicate elements.
+Main methods:
+- add()
+- addAll()
+- get()
+- indexOf()
+- remove()
+- set()
+
+## Set: handle sets, which must contain unique elements.
+Main methods:
+- add()
+- clear()
+- contains()
+- isEmpty()
+- remove()
+- size()
+## Map: maps unique keys to values.
+* Given a key and a value, you can store the value in a Map object. After the value is stored, you can retrieve it by using its key.
+* Several methods throw a NoSuchElementException when no items exist in the invoking map.
+Main methods:
+- clear()
+- containsKey()
+- containsValue()
+- entrySet()
+- equals()
+- get()
+- isEmpty()
+- keySet()
+- put()
+- remove()
+
 Examples:
 ```java
 import java.util.*;
