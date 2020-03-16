@@ -623,4 +623,4 @@ Output:
  
  Map Elements
 
-{Daisy = 14, Ayan = 12, Zara = 8, 
+	{Daisy = 14, Ayan = 12, Zara = 8, Mahnaz = 31}
