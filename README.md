@@ -68,7 +68,7 @@ Example:
 * Contructors can have all types of access modifiers.
 
 ###### Notes
-* Classes will always have DEFAULT or PUBLIC access modifiers.
+* Classes will always have DEFAULT or PUBLIC access modifiers (unless we talk about inner classes).
 * Interfaces will always have PUBLIC access modifier (also methods/artifacts).
 
 ![](https://miro.medium.com/max/1500/1*GKGirEJ5-PaSz2bzGlRTjw.png)
