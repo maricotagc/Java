@@ -623,79 +623,24 @@ Main methods:
 - isEmpty()
 - remove()
 - size()
-## Map: maps unique keys to values.
-* Given a key and a value, you can store the value in a Map object. After the value is stored, you can retrieve it by using its key.
-* Several methods throw a NoSuchElementException when no items exist in the invoking map.
-Main methods:
-- clear()
-- containsKey()
-- containsValue()
-- entrySet()
-- equals()
-- get()
-- isEmpty()
-- keySet()
-- put()
-- remove()
 
-Examples:
+## HashMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
+* Allows null keys/ values.
+* It does not guarantee that the order will remain constant over time.
+* Each object kept inside a hashmap contains a hash code (which is kind of an ID). This is used for searching for objects more rapidly for example.
+
 ```java
-import java.util.*;
-public class CollectionsDemo {
+//Declaration
+HashMap<Integer, String> hashMapName = new HashMap<>();
 
-   public static void main(String[] args) {
-      // ArrayList 
-      List a1 = new ArrayList();
-      a1.add("Zara");
-      a1.add("Mahnaz");
-      a1.add("Ayan");
-      System.out.println(" ArrayList Elements");
-      System.out.print("\t" + a1);
+// Adding
+hashMapName.put(key, value);
 
-      // LinkedList
-      List l1 = new LinkedList();
-      l1.add("Zara");
-      l1.add("Mahnaz");
-      l1.add("Ayan");
-      System.out.println();
-      System.out.println(" LinkedList Elements");
-      System.out.print("\t" + l1);
+//Iteration
+for (Map.Entry<KeyDataType, ValueDataType> entry: hashMapName.entrySet()) {
+            KeyDataType key = entry.getKey();
+            ValueDataType value = entry.getValue();
 
-      // HashSet
-      Set s1 = new HashSet(); 
-      s1.add("Zara");
-      s1.add("Mahnaz");
-      s1.add("Ayan");
-      System.out.println();
-      System.out.println(" Set Elements");
-      System.out.print("\t" + s1);
-
-      // HashMap
-      Map m1 = new HashMap(); 
-      m1.put("Zara", "8");
-      m1.put("Mahnaz", "31");
-      m1.put("Ayan", "12");
-      m1.put("Daisy", "14");
-      System.out.println();
-      System.out.println(" Map Elements");
-      System.out.print("\t" + m1);
-   }
+            System.out.println("Key: " + key + " ; Value: " + value);
 }
 ```
-Output:
-
- ArrayList Elements
- 
-	[Zara, Mahnaz, Ayan]
-    
- LinkedList Elements
- 
-	[Zara, Mahnaz, Ayan]
-    
- Set Elements
- 
-	[Ayan, Zara, Mahnaz]
- 
- Map Elements
-
-	{Daisy = 14, Ayan = 12, Zara = 8, Mahnaz = 31}
