@@ -574,6 +574,33 @@ Main methods:
 - remove()
 - set()
 
+## ArrayList: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+* Resizable
+* Accepts null objects
+* It doesnt allow primitive types
+```java
+//Declaration
+ArrayList<DataType> arrayListName = new ArrayList();
+
+// Adding
+arrayListName.add(value);
+or
+arrayListName.add(index, value);
+
+// Retrieving
+arrayListName.get(index);
+
+// Deleting
+arrayListName.remove(object);
+or
+arrayListName.remove(index);
+
+//Iteration
+for(ArrayListType x : arrayListName) {
+	instructions
+}
+```
+
 ## Set: handle sets, which must contain unique elements.
 Main methods:
 - add()
