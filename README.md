@@ -578,6 +578,8 @@ Main methods:
 * Resizable
 * Accepts null objects
 * It doesnt allow primitive types
+* Used to add/remove itens to the beginning/end of array
+
 ```java
 //Declaration
 ArrayList<DataType> arrayListName = new ArrayList();
@@ -595,10 +597,22 @@ arrayListName.remove(object);
 or
 arrayListName.remove(index);
 
+// Updating
+arrayListName.set(index, value);
+
 //Iteration
 for(ArrayListType x : arrayListName) {
 	instructions
 }
+```
+
+## LinkedList: [Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
+* Used when it is needed to add/remove itens in the middle of the list.
+* Similar to ArrayList in all other aspects
+
+```java
+//Declaration
+LinkedList<DataType> arrayListName = new LinkedList();
 ```
 
 ## Set: handle sets, which must contain unique elements.
