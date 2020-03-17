@@ -644,3 +644,10 @@ for (Map.Entry<KeyDataType, ValueDataType> entry: hashMapName.entrySet()) {
             System.out.println("Key: " + key + " ; Value: " + value);
 }
 ```
+## LinkedHashMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
+* Used when adding/removing objects are often done (performatic)
+* It keeps the orders that elements were added
+
+## TreeMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
+* Order elements by natural order (alphabetical, numerical, etc)
+* Not performatic because it searches for the correct position within the map
