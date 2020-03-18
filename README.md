@@ -563,6 +563,8 @@ public class MammalInt implements Animal {
 ```
 # Collections
 
+![](/images/comparison.jpg)
+
 ## ArrayList: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 * Resizable
 * Accepts null objects
