@@ -563,20 +563,10 @@ public class MammalInt implements Animal {
 ```
 # Collections
 
-## List: stores an ordered collection of elements.
-* Elements can be inserted/ accessed by their position in the list, using a zero-based index.
-* A list may contain duplicate elements.
-Main methods:
-- add()
-- addAll()
-- get()
-- indexOf()
-- remove()
-- set()
-
 ## ArrayList: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 * Resizable
 * Accepts null objects
+* Accepts duplicates
 * It doesnt allow primitive types
 * Used to add/remove itens to the beginning/end of array
 
