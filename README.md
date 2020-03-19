@@ -567,7 +567,8 @@ public class MammalInt implements Animal {
 
 ## ArrayList: 
 [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
-![Code Example](/Code/ArrayList.java)
+
+[Code Example](/Code/ArrayList.java)
 
 ## LinkedList: [Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
 
