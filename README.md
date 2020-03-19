@@ -566,11 +566,6 @@ public class MammalInt implements Animal {
 ![](/images/comparison.jpg)
 
 ## ArrayList: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
-* Resizable
-* Accepts null objects
-* Accepts duplicates
-* It doesnt allow primitive types
-* Used to add/remove itens to the beginning/end of array
 
 ```java
 //Declaration
@@ -599,47 +594,9 @@ for(ArrayListType x : arrayListName) {
 ```
 
 ## LinkedList: [Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
-* Used when it is needed to add/remove itens in the middle of the list.
-* Similar to ArrayList in all other aspects
-
-```java
-//Declaration
-LinkedList<DataType> arrayListName = new LinkedList();
-```
-
-## Set: handle sets, which must contain unique elements.
-Main methods:
-- add()
-- clear()
-- contains()
-- isEmpty()
-- remove()
-- size()
 
 ## HashMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
-* Allows null keys/ values.
-* It does not guarantee that the order will remain constant over time.
-* Each object kept inside a hashmap contains a hash code (which is kind of an ID). This is used for searching for objects more rapidly for example.
 
-```java
-//Declaration
-HashMap<Integer, String> hashMapName = new HashMap<>();
-
-// Adding
-hashMapName.put(key, value);
-
-//Iteration
-for (Map.Entry<KeyDataType, ValueDataType> entry: hashMapName.entrySet()) {
-            KeyDataType key = entry.getKey();
-            ValueDataType value = entry.getValue();
-
-            System.out.println("Key: " + key + " ; Value: " + value);
-}
-```
 ## LinkedHashMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
-* Used when adding/removing objects are often done (performatic)
-* It keeps the orders that elements were added
 
 ## TreeMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
-* Order elements by natural order (alphabetical, numerical, etc)
-* Not performatic because it searches for the correct position within the map
