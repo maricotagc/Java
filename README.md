@@ -565,33 +565,9 @@ public class MammalInt implements Animal {
 
 ![](/images/comparison.jpg)
 
-## ArrayList: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
-
-```java
-//Declaration
-ArrayList<DataType> arrayListName = new ArrayList();
-
-// Adding
-arrayListName.add(value);
-or
-arrayListName.add(index, value);
-
-// Retrieving
-arrayListName.get(index);
-
-// Deleting
-arrayListName.remove(object);
-or
-arrayListName.remove(index);
-
-// Updating
-arrayListName.set(index, value);
-
-//Iteration
-for(ArrayListType x : arrayListName) {
-	instructions
-}
-```
+## ArrayList: 
+[Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
+![Code Example](/Code/ArrayList.java)
 
 ## LinkedList: [Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
 
