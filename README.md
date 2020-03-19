@@ -577,29 +577,29 @@ public class MammalInt implements Animal {
 ## HashSet
 [Official Doc](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
-[Code Example](/Codes/ArrayList.java)
+[Code Example](/Codes/HashSet.java)
 
 ## LinkedHashSet
 [Official Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashSet.html)
 
-[Code Example](/Codes/ArrayList.java)
+[Code Example](/Codes/LinkedHashSet.java)
 
 ## TreeSet
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)
 
-[Code Example](/Codes/ArrayList.java)
+[Code Example](/Codes/TreeSet.java)
 
 ## HashMap
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
 
-[Code Example](/Codes/ArrayList.java)
+[Code Example](/Codes/HashMap.java)
 
 ## LinkedHashMap 
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
 
-[Code Example](/Codes/ArrayList.java)
+[Code Example](/Codes/LinkedHashMap.java)
 
 ## TreeMap
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
 
-[Code Example](/Codes/ArrayList.java)
+[Code Example](/Codes/TreeMap.java)
