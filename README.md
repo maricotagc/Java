@@ -562,18 +562,36 @@ public class MammalInt implements Animal {
 }
 ```
 # Collections
-
 ![](/images/comparison.jpg)
 
-## ArrayList: 
-[Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
-
+## ArrayList
+[Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
 [Code Example](/Codes/ArrayList.java)
 
-## LinkedList: [Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
+## LinkedList
+[Official Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html)
+[Code Example](/Codes/ArrayList.java)
 
-## HashMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
+## HashSet
+[Official Doc](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
+[Code Example](/Codes/ArrayList.java)
 
-## LinkedHashMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
+## LinkedHashSet
+[Official Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashSet.html)
+[Code Example](/Codes/ArrayList.java)
 
-## TreeMap: [Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
+## TreeSet
+[Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html)
+[Code Example](/Codes/ArrayList.java)
+
+## HashMap
+[Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
+[Code Example](/Codes/ArrayList.java)
+
+## LinkedHashMap 
+[Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
+[Code Example](/Codes/ArrayList.java)
+
+## TreeMap
+[Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
+[Code Example](/Codes/ArrayList.java)
