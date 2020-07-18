@@ -5,7 +5,10 @@
 * case-sensitive;
 * can include Unicode letters, digits, and two special characters ($, _);
 * cannot start with a digit;
-* must not be a keyword (class, static, int are illegal names).
+* must not be a keyword (class, static, int are illegal names);
+* if a variable name is a single word it should be in lowercase;
+* if a variable name includes multiple words it should be in lowerCamelCase;
+* variable names should not start with _ and $ characters, although they are allowed.
 
 # Variables
 1. Local Variables: seen only inside the method. They should be declared and initiated before the first use.
