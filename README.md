@@ -1,5 +1,12 @@
 [Documentation](https://www.tutorialspoint.com/java/)
 
+# Design Patterns
+## Variables Naming:
+* case-sensitive;
+* can include Unicode letters, digits, and two special characters ($, _);
+* cannot start with a digit;
+* must not be a keyword (class, static, int are illegal names).
+
 # Variables
 1. Local Variables: seen only inside the method. They should be declared and initiated before the first use.
 2. Instance Variables (Non-static Variables): depend on instace of object to be seen. It is recommended to make these variables private. Default values: for numbers the default value is 0, for Booleans it is false and for object references it is null.
