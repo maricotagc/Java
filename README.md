@@ -625,4 +625,5 @@ There are two ways to read strings with a Scanner class.
 ## Multiline input
 The position of a cursor and the reading methods behavior should be taken into consideration.
 
-[Code Example](/Codes/Scanner.java)
+[Code Example - Reading from a file](/Codes/ScannerFile.java)
+[Code Example - Reading from a user input](/Codes/ScannerUser.java)
