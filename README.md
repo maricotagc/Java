@@ -617,6 +617,12 @@ public class MammalInt implements Animal {
 # Reading data from a file
 Scanner (java.util.Scanner) class allows a program to read data from an input.
 
+## One line input 
 There are two ways to read strings with a Scanner class. 
 * If input has integer or a single word, the data can be read using next() method.
 * If input has integer or a more than one word, the data can be read using nextLine() method.
+
+## Multiline input
+The position of a cursor and the reading methods behavior should be taken into consideration.
+
+[Code Example](/Codes/Scanner.java)
