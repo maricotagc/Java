@@ -613,3 +613,10 @@ public class MammalInt implements Animal {
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
 
 [Code Example](/Codes/TreeMap.java)
+
+# Reading data from a file
+Scanner (java.util.Scanner) class allows a program to read data from an input.
+
+There are two ways to read strings with a Scanner class. 
+* If input has integer or a single word, the data can be read using next() method.
+* If input has integer or a more than one word, the data can be read using nextLine() method.
