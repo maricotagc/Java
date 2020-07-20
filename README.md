@@ -628,3 +628,7 @@ The position of a cursor and the reading methods behavior should be taken into c
 [Code Example - Reading from a file](/Codes/ScannerFile.java)
 
 [Code Example - Reading from a user input](/Codes/ScannerUser.java)
+
+# Casting
+
+[Code Example - String to int](/Codes/StringToInt.java)
