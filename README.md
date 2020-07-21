@@ -114,6 +114,12 @@ Example:
 
 ![](/images/assignmentOperators.jpg)
 
+Pre-Increment: First the value is incremented by one and then the value is assigned to the variable.
+
+Post-Increment: First the value is assigned to the variable and then incremented by one.
+
+[Code Example - Increments](/Codes/Increment_Decrement.java)
+
 ## Other Operators
 
 * Conditional Operator (Ternary)
@@ -124,9 +130,6 @@ Example: b = (a == 1) ? 20: 30;
 
 ![](/images/operatorsPrecedence.jpg)
 
-Pre-Increment: First the value is incremented by one and then the value is assigned to the variable.
-
-Post-Increment: First the value is assigned to the variable and then incremented by one.
 
 # Loops
 
