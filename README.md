@@ -625,6 +625,8 @@ There are two ways to read strings with a Scanner class.
 * If input has integer or a single word, the data can be read using next() method.
 * If input has integer or a more than one word, the data can be read using nextLine() method.
 
+[Code Example - Reading from one line](/Codes/Scanner_ReadOneLine.java)
+
 ## Multiline input
 The position of a cursor and the reading methods behavior should be taken into consideration.
 
