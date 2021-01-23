@@ -607,7 +607,8 @@ It has order of insertion.
 [Code Example](/Codes/TreeSet.java)
 
 ## HashMap
-It doesn't have any order.
+* It doesn't have any order. 
+* It doesn't accept duplicates.
 
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
 
@@ -615,14 +616,16 @@ It doesn't have any order.
 
 
 ## LinkedHashMap 
-It has order of insertion.
+* It has order of insertion.
+* It doesn't accept duplicates.
 
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
 
 [Code Example](/Codes/LinkedHashMap.java)
 
 ## TreeMap
-It has natural order.
+* It has natural order.
+* It doesn't accept duplicates.
 
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
 
