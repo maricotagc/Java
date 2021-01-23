@@ -588,11 +588,15 @@ public class MammalInt implements Animal {
 [Code Example](/Codes/LinkedList.java)
 
 ## HashSet
+It doesn't have any order.
+
 [Official Doc](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
 [Code Example](/Codes/HashSet.java)
 
 ## LinkedHashSet
+It has order of insertion.
+
 [Official Doc](https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashSet.html)
 
 [Code Example](/Codes/LinkedHashSet.java)
@@ -603,16 +607,23 @@ public class MammalInt implements Animal {
 [Code Example](/Codes/TreeSet.java)
 
 ## HashMap
+It doesn't have any order.
+
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
 
 [Code Example](/Codes/HashMap.java)
 
+
 ## LinkedHashMap 
+It has order of insertion.
+
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
 
 [Code Example](/Codes/LinkedHashMap.java)
 
 ## TreeMap
+It has natural order.
+
 [Official Doc](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
 
 [Code Example](/Codes/TreeMap.java)
