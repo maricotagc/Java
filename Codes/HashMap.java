@@ -8,6 +8,7 @@ public class HashMapTest {
     public static void main(String[] args) {
         //Declaration
         HashMap<Integer, String> hashMapName = new HashMap<>();
+
         System.out.println("After declaration:");
         for (Map.Entry<Integer, String> entry : hashMapName.entrySet()) {
             int key = entry.getKey();
@@ -22,24 +23,26 @@ public class HashMapTest {
         hashMapName.put(4, "Quatro");
         hashMapName.put(2, "Dois");
         hashMapName.put(3, "Tres");
-        System.out.println();
-        System.out.println("After Addition:");
+
+        System.out.println("\nAfter Addition:");
         for (Map.Entry<Integer, String> entry : hashMapName.entrySet()) {
             int key = entry.getKey();
             String value = entry.getValue();
             System.out.println("Key: " + key + " ; Value: " + value);
         }
 
+        System.out.println("\nOnly the values after addition:");
+        for (String x: hashMapName.values()) {
+            System.out.println(x);
+        }
+
         //Retrieval
-        System.out.println();
-        System.out.println("Result of .get(5):\n" + hashMapName.get(5));
-        System.out.println();
-        System.out.println("Result of .entrySet():\n" + hashMapName.entrySet());
+        System.out.println("\nResult of .get(5):\n" + hashMapName.get(5));
+        System.out.println("\nResult of .entrySet():\n" + hashMapName.entrySet());
 
         //Deletion
         hashMapName.remove(4);
-        System.out.println();
-        System.out.println("After Deletion of key = 4:");
+        System.out.println("\nAfter Deletion of key = 4:");
         for (Map.Entry<Integer, String> entry : hashMapName.entrySet()) {
             int key = entry.getKey();
             String value = entry.getValue();
