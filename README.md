@@ -40,7 +40,7 @@ public class Example2
 # Classes/ Methods Modifiers
 
 ## Access Modifiers
-1. Default: accessible by classes in the same package. If none access level is specified, it will be the default.
+1. Default: accessible by classes in the same package. If none access level is specified, it will be the default. Inherited by sub-classes from the same package only.
 2. Public: accessible by any other class in any package. Inherited by subClasses and behaves as public in SubClasses.
 3. Protected: accessible only by the subClasses regardless the package. Inherited by subclasses and behave as private in subclasses.
 4. Private: accessible within the declared class. Never inherited by subClasses.
