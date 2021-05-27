@@ -64,6 +64,7 @@ Implementation by subclasses.
 * Instead of curly braces, an abstract method will have a semoi colon (;) at the end.
 * The class containing it must be declared as abstract.
 * Any class inheriting the current class must either override the abstract method or declare itself as abstract.
+* A method marked abstract cannot be private.
 
 Example:
 ```java
