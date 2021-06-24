@@ -655,3 +655,8 @@ The position of a cursor and the reading methods behavior should be taken into c
 # Casting
 
 [Code Example - String to int](/Codes/StringToInt.java)
+
+# Strinbuilder
+More performatic than concatenating strings.
+
+[Code Example - String to int](/Codes/StringToInt.java)
