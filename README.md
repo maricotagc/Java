@@ -659,4 +659,4 @@ The position of a cursor and the reading methods behavior should be taken into c
 # Strinbuilder
 More performatic than concatenating strings.
 
-[Code Example - String to int](/Codes/StringToInt.java)
+[Code Example - Stringbuilder](/Codes/StringTask.java)
