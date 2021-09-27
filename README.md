@@ -679,6 +679,15 @@ More performatic than concatenating strings.
 
 * Connection object 
 * Method (prepareStatement) from Connection object which will use a SQL query as argument and will return an object of type = PreparedStatement
-* Method (executeUpdate) fro PreparedStatement object which will return an integer number which represents the number of rows affected in the db.
+* Method (executeUpdate) from PreparedStatement object which will return an integer number which represents the number of rows affected in the db
 
 [Code Example - Insert query in the database](/Codes/DatabaseQueryInsert.java)
+
+## Executing a simple query in the database requires:
+
+* Connection object 
+* Method (prepareStatement) from Connection object which will use a SQL query as argument and will return an object of type = PreparedStatement
+* Method (executeQuery) from PreparedStatement object which will return an object of type = ResultSet
+* While condition containing next method from result set which verifies if result set has a next row to be read.
+
+[Code Example - Simple query in the database](/Codes/Create DatabaseSimpleQuery.java)
