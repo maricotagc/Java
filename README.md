@@ -669,6 +669,9 @@ More performatic than concatenating strings.
 * User (schema): one database (FenergoDb) can have n schemas containing a set of tables.
 * Password for each schema.
 
+Format: jdbc:oracle:thin:<user>/<password>@<hostname or ip>:<port>:<database>
+Example: jdbc:oracle:thin:mariana/senha123@localhost:5221:librarydb
+    
 [Code Example - Connection to the database](/Codes/DatabaseConnection.java)
 
 ## Creating tables in the database
