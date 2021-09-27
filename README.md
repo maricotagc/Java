@@ -681,7 +681,7 @@ More performatic than concatenating strings.
 * Method (prepareStatement) from Connection object which will use a SQL query as argument and will return an object of type = PreparedStatement
 * Method (executeUpdate) from PreparedStatement object which will return an integer number which represents the number of rows affected in the db
 
-[Code Example - Insert query in the database](/Codes/DatabaseQueryInsert.java)
+[Code Example - Insert query in the database](/Codes/DatabaseSimpleQuery.java)
 
 ## Executing a simple query in the database requires:
 
