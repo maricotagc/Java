@@ -660,3 +660,12 @@ The position of a cursor and the reading methods behavior should be taken into c
 More performatic than concatenating strings.
 
 [Code Example - Stringbuilder](/Codes/StringTask.java)
+
+# Database
+
+The first thing to do is creating a connection with the database. Required:
+* Host (computer/server)
+* User (schema/database)
+* Password
+
+[Code Example - Connection to the database](/Codes/DatabaseConnection.java)
