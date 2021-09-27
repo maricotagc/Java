@@ -675,6 +675,10 @@ More performatic than concatenating strings.
 
 [Code Example - Table Creation](/Codes/DatabaseTableCreation.java)
 
-## Executing an insertion query in the database
+## Executing an insertion query in the database requires:
+
+* Connection object 
+* Method (prepareStatement) from Connection object which will use a SQL query as argument and will return an object of type = PreparedStatement
+* Method (executeUpdate) fro PreparedStatement object which will return an integer number which represents the number of rows affected in the db.
 
 [Code Exaple - Query on the database](/Codes/DatabaseQueryInsert.java)
