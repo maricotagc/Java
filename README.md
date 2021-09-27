@@ -664,10 +664,10 @@ More performatic than concatenating strings.
 # Database
 
 ## Creating a connection with the database requires
-* Host (computer/server): a host is the platform which has different applications (ex.: database application) 
-* Port for the database: a host can have n ports which will be dedicated to different kinds of applications (ex.: port 80 is dedicated for Oracle database app, port 90 is dedicated to Postgree database app)
-* User (schema/database): one database application (Oracle, Postgree) can have n schemas containing a set of tables.
-* Password
+* Host (computer/server): a host is a computer which has different applications (ex.: database application). It can be referred by its IP or its name.
+* Port for the database: a host can have n ports which will be dedicated to different kinds of applications (ex.: port 1521 is dedicated for Oracle database app, port 5432 is dedicated to Postgree database app)
+* User (schema): one database (FenergoDb) can have n schemas containing a set of tables.
+* Password for each schema.
 
 [Code Example - Connection to the database](/Codes/DatabaseConnection.java)
 
