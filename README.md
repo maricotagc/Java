@@ -663,9 +663,14 @@ More performatic than concatenating strings.
 
 # Database
 
-The first thing to do is creating a connection with the database. Required:
-* Host (computer/server)
-* User (schema/database)
+## Creating a connection with the database requires
+* Host (computer/server/webserver): a host is the platform which has different applications (ex.: database application) 
+* Port for the database: a host can have n ports which will be dedicated to different kinds of applications (ex.: port 80 is dedicated for Oracle database app, port 90 is dedicated to Postgree database app)
+* User (schema/database): one database application (Oracle, Postgree) can have n schemas containing a set of tables.
 * Password
 
 [Code Example - Connection to the database](/Codes/DatabaseConnection.java)
+
+## Creating tables in the database through Java
+
+[Code Example - Table Creation](/Codes/DatabaseTableCreation.java)
