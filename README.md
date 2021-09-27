@@ -671,10 +671,10 @@ More performatic than concatenating strings.
 
 [Code Example - Connection to the database](/Codes/DatabaseConnection.java)
 
-## Creating tables in the database through Java
+## Creating tables in the database
 
 [Code Example - Table Creation](/Codes/DatabaseTableCreation.java)
 
-## Executing a query on the database through Java
+## Executing an insertion query in the database
 
-[Code Exaple - Query on the database](/Codes/DatabaseQuery.java)
+[Code Exaple - Query on the database](/Codes/DatabaseQueryInsert.java)
