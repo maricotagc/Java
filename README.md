@@ -674,3 +674,7 @@ More performatic than concatenating strings.
 ## Creating tables in the database through Java
 
 [Code Example - Table Creation](/Codes/DatabaseTableCreation.java)
+
+## Executing a query on the database through Java
+
+[Code Exaple - Query on the database](/Codes/DatabaseQuery.java)
