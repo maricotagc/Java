@@ -690,4 +690,4 @@ More performatic than concatenating strings.
 * Method (executeQuery) from PreparedStatement object which will return an object of type = ResultSet
 * While condition containing next method from result set which verifies if result set has a next row to be read.
 
-[Code Example - Simple query in the database](/Codes/Create DatabaseSimpleQuery.java)
+[Code Example - Simple query in the database](/Codes/DatabaseSimpleQuery.java)
