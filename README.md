@@ -515,6 +515,9 @@ public void callNameBuilder() {
         }
     }
 ```
+
+[Code Example of Creating My Own Exception](/Codes/MyOwnException.java)
+
 # Inheritance
 The class which inherits the properties of other is known as subclass (derived class, child class) and the class whose properties are inherited is known as superclass (base class, parent class).
 
