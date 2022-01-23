@@ -664,6 +664,14 @@ More performatic than concatenating strings.
 
 [Code Example - Stringbuilder](/Codes/StringTask.java)
 
+# Regular Expressions (Regex)
+A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text, you can use this search pattern to describe what you are searching for.
+* Pattern Class - Defines a pattern (to be used in a search)
+* Matcher Class - Used to search for the pattern
+* PatternSyntaxException Class - Indicates syntax error in a regular expression pattern
+
+[Tutorial W3 Schools](https://www.w3schools.com/java/java_regex.asp)
+
 # Database
 
 ## Creating a connection with the database requires
