@@ -671,6 +671,7 @@ A regular expression is a sequence of characters that forms a search pattern. Wh
 * PatternSyntaxException Class - Indicates syntax error in a regular expression pattern
 
 [Tutorial W3 Schools](https://www.w3schools.com/java/java_regex.asp)
+[Code Example - Regex 1](/Codes/Regex1.java)
 
 # Database
 
