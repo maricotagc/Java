@@ -6,15 +6,8 @@ import java.util.Map;
 public class HashMapTest {
 
     public static void main(String[] args) {
-        //Declaration
-        HashMap<Integer, String> hashMapName = new HashMap<>();
-
-        System.out.println("After declaration:");
-        for (Map.Entry<Integer, String> entry : hashMapName.entrySet()) {
-            int key = entry.getKey();
-            String value = entry.getValue();
-            System.out.println("Key: " + key + " ; Value: " + value);
-        }
+        //Map's Declaration
+        Map<Integer, String> hashMapName = new HashMap<>();
 
         //Addition
         hashMapName.put(0, "Zero");
@@ -24,29 +17,19 @@ public class HashMapTest {
         hashMapName.put(2, "Dois");
         hashMapName.put(3, "Tres");
 
-        System.out.println("\nAfter Addition:");
-        for (Map.Entry<Integer, String> entry : hashMapName.entrySet()) {
-            int key = entry.getKey();
-            String value = entry.getValue();
-            System.out.println("Key: " + key + " ; Value: " + value);
-        }
-
-        System.out.println("\nOnly the values after addition:");
-        for (String x: hashMapName.values()) {
-            System.out.println(x);
-        }
+        System.out.println("\nAfter Addition:" + hashMapName);
+        System.out.println("\nPrinting only the values:" + hashMapName.values());
 
         //Retrieval
-        System.out.println("\nResult of .get(5):\n" + hashMapName.get(5));
-        System.out.println("\nResult of .entrySet():\n" + hashMapName.entrySet());
+        System.out.println("\nResult of .get(5): " + hashMapName.get(5));
 
         //Deletion
         hashMapName.remove(4);
-        System.out.println("\nAfter Deletion of key = 4:");
-        for (Map.Entry<Integer, String> entry : hashMapName.entrySet()) {
-            int key = entry.getKey();
-            String value = entry.getValue();
-            System.out.println("Key: " + key + " ; Value: " + value);
-        }
+        System.out.println("\nAfter Deletion of key = 4: " + hashMapName);
+
+		//Iteration
+		for (Map.Entry<Integer, String> entry : hashMapName.entrySet()) {
+			System.out.println("\nEntry: " + entry);
+		}
     }
 }
